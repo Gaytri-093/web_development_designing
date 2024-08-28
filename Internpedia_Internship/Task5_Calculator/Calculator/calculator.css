@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(-120deg, rgb(139, 9, 129), rgb(189, 17, 166));
+}
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.5rem 0 0.5rem 0;
+}
+.container{
+    width: auto;
+    height: auto;
+    background-color: 	#161b33;
+    /* padding: 1rem; */
+    color: white;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 1rem;
+    max-width: 30rem;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+
+}
+.container .input{
+    background-color: aqua;
+    margin: 0;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    font-size: 2.4rem;
+    outline: none;
+    border: none;
+    background-color:#2d3142; 
+    text-align: end;
+    color: white;
+
+
+}
+.container .row{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.container .row button{
+    width: 7.5rem;
+    padding: 1.8rem 1rem 1.8rem 1rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+
+
+    
+}
+.container .row .lastone{
+    /* border-bottom: 0.5px solid transparent; */
+    border-radius: 0 0 0 1rem;
+}
+.container .row .last{
+    /* border-bottom: 0.5px solid transparent; */
+    border-radius: 0 0 1rem 0;
+}
+/* .container .row .btn{
+    color:rgb(189, 17, 166);
+} */
+ @media screen and (max-width:500px) {
+    h1{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    .container .row button{
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
+    }
+    .container{
+        border: 1px solid white;
+    }
+    
+ }
